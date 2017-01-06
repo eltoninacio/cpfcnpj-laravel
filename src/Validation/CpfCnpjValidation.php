@@ -35,7 +35,7 @@ class CpfCnpjValidation extends IlluminateValidator
 	 * @param  mixed   $value
 	 * @return bool
 	 */
-	protected function validatecpfcnpj($attribute, $value, $parameters)
+	protected function validateCpfCnpj($attribute, $value, $parameters)
 	{
 		if (strlen(preg_replace('/\D/', '', $value))==11) { // cpf
 			return $this->validatecpf($attribute, $value, $parameters);
@@ -51,7 +51,7 @@ class CpfCnpjValidation extends IlluminateValidator
 	 * @param  mixed   $value
 	 * @return bool
 	 */
-	protected function validatecpf($attribute, $value, $parameters)
+	protected function validateCpf($attribute, $value, $parameters)
 	{
 		
 	   $cpf = $value;
@@ -88,7 +88,7 @@ class CpfCnpjValidation extends IlluminateValidator
 	 * @param  mixed   $value
 	 * @return bool
 	 */
-	protected function validatecnpj($attribute, $value, $parameters)
+	protected function validateCnpj($attribute, $value, $parameters)
 	{
 
 
