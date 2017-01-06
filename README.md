@@ -4,7 +4,7 @@ Validação de cpf, cnpj, cpfcnpj para laravel 5.*
 
 #### Instalação Composer
 ```
-$ composer require eltoninacio/cpfcnpj-laravel
+$ composer require eltoninacio/cpfcnpj-laravel:1.0.*
 ```
 ou
 ```
