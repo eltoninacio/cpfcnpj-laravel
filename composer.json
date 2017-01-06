@@ -2,6 +2,7 @@
     "name": "eltoninacio/cpfcnpj-laravel",
     "description": "Validação de cpf, cnpj, cpfcnpj para laravel 5.*",
     "license": "MIT",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Elton Inacio",
