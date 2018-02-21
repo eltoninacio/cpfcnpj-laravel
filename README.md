@@ -21,7 +21,7 @@ Registre o ServiceProvider no array ```providers``` dentro do arquivo ```config/
 ```php
 'providers' => [
 	// ...
-    EltonInacio\ValidadorCpjCnpj\CpfCnpjServiceProvider::class
+    EltonInacio\ValidadorCpfCnpj\CpfCnpjServiceProvider::class
 ]
 ```
 #### Exemplo de uso

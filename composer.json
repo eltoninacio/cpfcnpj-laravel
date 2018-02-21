@@ -2,7 +2,7 @@
     "name": "eltoninacio/cpfcnpj-laravel",
     "description": "Validação de cpf, cnpj, cpfcnpj para laravel 5.*",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Elton Inacio",
@@ -12,12 +12,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "EltonInacio\\ValidadorCpjCnpj\\": "src/"
+            "EltonInacio\\ValidadorCpfCnpj\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EltonInacio\\ValidadorCpjCnpj\\Tests\\": "tests/"
+            "EltonInacio\\ValidadorCpfCnpj\\Tests\\": "tests/"
         }
     },
     "require": {

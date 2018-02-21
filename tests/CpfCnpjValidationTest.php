@@ -1,8 +1,8 @@
 <?php
 
-namespace EltonInacio\ValidadorCpjCnpj\Tests;
+namespace EltonInacio\ValidadorCpfCnpj\Tests;
 
-use EltonInacio\ValidadorCpjCnpj\Validation\CpfCnpjValidation;
+use EltonInacio\ValidadorCpfCnpj\Validation\CpfCnpjValidation;
 use Symfony\Component\Translation\Translator;
 
 class CpfCnpjValidationTest extends \PHPUnit_Framework_TestCase 

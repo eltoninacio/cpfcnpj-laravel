@@ -1,9 +1,9 @@
 <?php 
 
-namespace EltonInacio\ValidadorCpjCnpj;
+namespace EltonInacio\ValidadorCpfCnpj;
 
 use Illuminate\Support\ServiceProvider;
-use EltonInacio\ValidadorCpjCnpj\Validation\CpfCnpjValidation;
+use EltonInacio\ValidadorCpfCnpj\Validation\CpfCnpjValidation;
 
 class CpfCnpjServiceProvider extends ServiceProvider {
 

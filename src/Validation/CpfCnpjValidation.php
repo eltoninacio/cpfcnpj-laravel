@@ -1,6 +1,6 @@
 <?php
 
-namespace EltonInacio\ValidadorCpjCnpj\Validation;
+namespace EltonInacio\ValidadorCpfCnpj\Validation;
 
 use Illuminate\Validation\Validator as IlluminateValidator;
 
