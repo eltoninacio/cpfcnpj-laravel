@@ -9,7 +9,7 @@ $ composer require eltoninacio/cpfcnpj-laravel
 ou
 ```
 "require": {
-    "eltoninacio/cpfcnpj-laravel": "1.0.*"
+    "eltoninacio/cpfcnpj-laravel": "2.0.*"
 }
 ```
 ```
