@@ -50,10 +50,10 @@ class Cpf implements InterfaceValidation
 
         for ($t = 9; $t < 11; $t++) {
             for ($d = 0, $c = 0; $c < $t; $c++) {
-                $d += $this->cpf{$c} * (($t + 1) - $c);
+                $d += $this->cpf[$c] * (($t + 1) - $c);
             }
             $d = ((10 * $d) % 11) % 10;
-            if ($this->cpf{$c} != $d) {
+            if ($this->cpf[$c] != $d) {
                 return false;
             }
         }
