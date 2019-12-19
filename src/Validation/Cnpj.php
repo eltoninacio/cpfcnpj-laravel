@@ -40,7 +40,7 @@ class Cnpj implements InterfaceValidation
         }
         // First digit validation
         for ($i = 0, $j = 5, $sum = 0; $i < 12; $i++) {
-            $sum += $this->cnpj{$i} * $j;
+            $sum += $this->cnpj[$i] * $j;
             $j = ($j == 2) ? 9 : $j - 1;
         }
         $rest = $sum % 11;
@@ -52,10 +52,10 @@ class Cnpj implements InterfaceValidation
         // Second digit validation
         for ($i = 0, $j = 6, $sum = 0; $i < 13; $i++)
         {
-            $sum += $this->cnpj{$i} * $j;
+            $sum += $this->cnpj[$i] * $j;
             $j = ($j == 2) ? 9 : $j - 1;
         }
         $rest = $sum % 11;
-        return $this->cnpj{13} == ($rest < 2 ? 0 : 11 - $rest);
+        return $this->cnpj[13] == ($rest < 2 ? 0 : 11 - $rest);
     }
 }
