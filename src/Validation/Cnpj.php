@@ -45,7 +45,7 @@ class Cnpj implements InterfaceValidation
         }
         $rest = $sum % 11;
 
-        if ($this->cnpj{12} != ($rest < 2 ? 0 : 11 - $rest)) {
+        if ($this->cnpj[12] != ($rest < 2 ? 0 : 11 - $rest)) {
             return false;
         }
 
